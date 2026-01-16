@@ -1,0 +1,36 @@
+.user-container {
+  padding: 20px;
+}
+
+.user-container h1 {
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  color: blue;
+}
+
+.error {
+  text-align: center;
+  color: red;
+}
+
+.users-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-card {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.user-card h2 {
+  margin: 0;
+}
+
+.user-card p {
+  margin: 5px 0;
+}

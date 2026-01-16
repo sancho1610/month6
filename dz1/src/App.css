@@ -1,0 +1,31 @@
+.App {
+  padding: 20px;
+}
+
+.library-selector {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.lib-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background: #f8f9fa;
+  color: #333;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.lib-btn:hover {
+  background: #e9ecef;
+}
+
+.lib-btn.active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
